@@ -2,45 +2,50 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
-
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
   <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
-  
   <title>Frontend Mentor | Results summary component</title>
-  <link rel="stylesheet" href="main.css" >
-
+  <link rel="stylesheet" href="main.css">
 </head>
 <body>
-<div id="main-div">
-  <div id="left-div">
-  Your Result
-  76
-  of 100
-
-  Great
-  You scored higher than 65% of the people who have taken these tests.
-  </div>
-  <div id="right-div">
-  Summary
-
-  Reaction
-  80 / 100
-
-  Memory
-  92 / 100
-
-  Verbal
-  61 / 100
-
-  Visual
-  72 / 100
-
-  Continue
-  </div>
-</div>
-  <div class="attribution">
-    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="#">Your Name Here</a>.
+  <div class="main-div">
+    <div class="main left-content">
+      <h4 style="margin-left: 35%; color: azure;">Your Result</h4>
+        <div class="total">
+          <h1 style="color: rgb(248, 248, 248); padding-left:50px ; font-size: 3rem; ">76</h1>
+          <p style="color: rgb(247, 247, 247); padding-left:50px ; ">of 100</p>
+        </div>
+      <h3 style="margin-left: 35%; color: azure;">Great</h3>
+      <p style="margin-left: 25%; color: azure;">You scored higher than 65% <br> of the people who have <br>taken these tests.</p>
+    </div>
+  
+    <div class="main right-menu">
+      <h4>Summary</h4>
+  
+      <div class="individual_performance" style="color:hsl(0, 100%, 67%) ; background: rgb(243, 205, 205);">
+        <p class="para">
+          <img src="./assets/images/icon-reaction.svg" alt=""> Reaction</p> 
+        <p class="para" style="float: right; margin-right: 10px;">80 / 100</p>
+      </div>
+      <div class="individual_performance" style="color:hsl(39, 100%, 56%) ; background: rgb(243, 220, 177);">
+        <p class="para">
+          <img src="./assets/images/icon-memory.svg" alt=""> Memory</p> 
+        <p class="para" style="float: right; margin-right: 10px;">92 / 100</p>
+      </div>
+      <div class="individual_performance" style="color: hsl(166, 100%, 37%); background: rgb(180, 245, 180);">
+        <p class="para">
+          <img src="./assets/images/icon-verbal.svg" alt=""> Verbal</p> 
+        <p class="para" style="float: right; margin-right: 10px;">61 / 100</p>
+      </div>
+      <div class="individual_performance" style="color:hsl(234, 85%, 45%) ; background: rgb(186, 186, 245);" >
+        <p class="para">
+          <img src="./assets/images/icon-visual.svg" alt=""> Visual</p> 
+        <p class="para" style="float: right; margin-right: 10px;">72 / 100</p>
+      </div>
+      
+        <button class="continue">continue<button> 
+      
+    </div>
   </div>
 </body>
 </html>
