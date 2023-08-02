@@ -1,83 +1,32 @@
-.main-div{
+body
+{
     position: relative;
     margin: 10% 20%;
     height: 60vh;
     background: whitesmoke;
     box-shadow: 0 4px 4px 0 white;
   }
-  @media (max-width: 400px) {
-  .main {
-    display: block;
-    height: auto;
-    width: 100%;
-  }
-  .parent{
-    background: whitesmoke;
-    box-shadow: 0 4px 4px 0 white;
-    height: auto;
-    width: 100%;
-  }
-  .left-content{
-    width: 100%;
-  }
+.result{
+  margin-left: 35%;
+  color: aliceblue;
 }
-  .para{
-    display: inline-block;
-  }
-  .para img {
-    margin-left: 5px;
-  }
-  .main{
-    display: inline-block;
-  }
-  .left-content{
-    /* position: absolute; */
-    height: 100%;
-    width: 50%;
-    background: linear-gradient(to bottom, hsl(252, 100%, 67%), hsl(241, 81%, 54%) );
-    border-radius: 8px;
-  }
-  .left-content h4{
-    left:50%;
-  }
-  .right-menu{
-    margin-left: 10px;
-    position: absolute;
-    left: 50%;
-    height: 100%;
-    width: 50%;
-  }
-  .total{
-    position: relative;
-    margin-left: 30%;
-    width: 150px;
-    height: 150px;
-    border: 1px solid black;
-    background: linear-gradient(to bottom, hsl(241, 81%, 54%), hsl(252, 100%, 67%) );
-    border-radius: 50%;
-  }
-
-  .individual_performance{
-    width: 90%;
-    border-radius: 8px;
-    margin-top: 5px;
-    margin-left: 10px;
-  }
-  .continue{
-    background-color: hsl(224, 30%, 27%) ;
-    width: 80%;
-    height:50px;
-    border-radius: 15px;
-    margin-top: 5px;
-    margin-left: 15px;
-  }
-  .continue h3 {
-    padding: 15px;
-    margin-left: 35%;
-    font-size: 20px;
-    font-weight: bold;
-    color: hsl(0, 0%, 100%);
-  }
+.score{
+  color: aliceblue;
+  padding-left: 50px;
+  font-size: 3rem;
+}
+.overall{
+  color: aliceblue;
+  padding-left: 50px;
+}
+h3{
+  margin-left: 35%;
+  color: aliceblue;
+}
+.paragraph{
+  margin-left: 25%;
+  color: aliceblue;
+}
   .right-menu h4{
     color: hsl(224, 30%, 27%) ;
     font-size: 20px;
@@ -104,7 +53,7 @@
       width: 100%;
     }
   }
-    .para{
+    .block{
       display: inline-block;
     }
     .para img {
@@ -128,6 +77,7 @@
       left: 50%;
       height: 100%;
       width: 50%;
+      margin-top: -23px;
     }
     .total{
       position: relative;
@@ -139,7 +89,7 @@
       border-radius: 50%;
     }
 
-    .individual_performance{
+    .right-block{
       width: 90%;
       border-radius: 8px;
       margin-top: 5px;
